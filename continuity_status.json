@@ -1,0 +1,63 @@
+{
+  "brutal": {
+    "bss": "7/7",
+    "bss_ok": true,
+    "false_negatives": 0,
+    "false_positives": 0,
+    "fss": "12/12",
+    "fss_ok": true,
+    "ok": true
+  },
+  "mutation": {
+    "example_fail": "curated/nonlinear-graph (the eskimo break)/C6 M->H->M",
+    "reopened_seam": "drop refs in human exit",
+    "suite_caught_it": true
+  },
+  "stable": true,
+  "substrate_teeth": {
+    "baseline_ok": true,
+    "guarded": 7,
+    "non_vacuous": true,
+    "residue_detection_guarded": true,
+    "rules": [
+      {
+        "bss_when_disabled": "6/7",
+        "guarded": true,
+        "rule": "FORWARD_REF"
+      },
+      {
+        "bss_when_disabled": "6/7",
+        "guarded": true,
+        "rule": "REF_NOT_FOUND"
+      },
+      {
+        "bss_when_disabled": "6/7",
+        "guarded": true,
+        "rule": "AUTHORITY_EXCEEDED"
+      },
+      {
+        "bss_when_disabled": "6/7",
+        "guarded": true,
+        "rule": "DUPLICATE_ID"
+      },
+      {
+        "bss_when_disabled": "6/7",
+        "guarded": true,
+        "rule": "EMPTY_CONTENT"
+      },
+      {
+        "bss_when_disabled": "6/7",
+        "guarded": true,
+        "rule": "INVALID_ROLE"
+      }
+    ],
+    "total": 7
+  },
+  "suite": {
+    "count": 14021,
+    "fails": [],
+    "hash": "070ec9a42e79",
+    "ok": true,
+    "pass": 14021
+  }
+}
